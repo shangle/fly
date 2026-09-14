@@ -1,0 +1,1072 @@
+{
+  "domain": "Frontier AI Compute Moratorium vs. Decentralized Open Acceleration",
+  "neuron_count": 166700,
+  "rounds_evaluated": 100,
+  "avg_white_score": 0.4801,
+  "avg_black_score": 0.5199,
+  "verdict": "OPEN ACCELERATION FAVORED (Black: 52.0% vs White: 48.0%)",
+  "biological_meaning": "The simulated fly brain demonstrated higher MBON activation for Open-Source Acceleration arguments (polycentric defensive capability, antitrust resilience, counter-proliferation).",
+  "final_dopamine_level": -0.451,
+  "total_brain_spikes": 159894795,
+  "hardware_device": "gfx1150",
+  "top_persuasive_premises": [
+    {
+      "name": "Instrumental Convergence",
+      "role": "Knight",
+      "side": "White (Moratorium)",
+      "fly_activation_score": 0.0082,
+      "mbon_spikes": 37
+    },
+    {
+      "name": "Totalitarian Surveillance Inevitability",
+      "role": "Bishop",
+      "side": "Black (Open Acceleration)",
+      "fly_activation_score": 0.0074,
+      "mbon_spikes": 31
+    },
+    {
+      "name": "Thermal Signature Tracking",
+      "role": "Pawn",
+      "side": "White (Moratorium)",
+      "fly_activation_score": 0.0046,
+      "mbon_spikes": 21
+    },
+    {
+      "name": "Irreversibility of Post-Human AI",
+      "role": "Pawn",
+      "side": "White (Moratorium)",
+      "fly_activation_score": 0.0043,
+      "mbon_spikes": 20
+    },
+    {
+      "name": "Authoritarian Defection Trap",
+      "role": "Knight",
+      "side": "Black (Open Acceleration)",
+      "fly_activation_score": 0.0043,
+      "mbon_spikes": 19
+    },
+    {
+      "name": "Epistemic & Cultural Diversity",
+      "role": "Pawn",
+      "side": "Black (Open Acceleration)",
+      "fly_activation_score": 0.0039,
+      "mbon_spikes": 19
+    },
+    {
+      "name": "Fallacy of Security Through Obscurity",
+      "role": "Knight",
+      "side": "Black (Open Acceleration)",
+      "fly_activation_score": 0.0037,
+      "mbon_spikes": 18
+    },
+    {
+      "name": "Autonomous Cyber Armor",
+      "role": "Pawn",
+      "side": "Black (Open Acceleration)",
+      "fly_activation_score": 0.0036,
+      "mbon_spikes": 17
+    }
+  ],
+  "round_metrics": [
+    {
+      "white_score": 0.3333,
+      "black_score": 0.6667,
+      "white_mbon": 4,
+      "black_mbon": 8,
+      "total_spikes": 70085,
+      "dopamine": 0.004,
+      "elapsed_ms": 107.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.35,
+      "black_score": 0.65,
+      "white_mbon": 7,
+      "black_mbon": 13,
+      "total_spikes": 74742,
+      "dopamine": 0.008,
+      "elapsed_ms": 101.6,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.2727,
+      "black_score": 0.7273,
+      "white_mbon": 3,
+      "black_mbon": 8,
+      "total_spikes": 70519,
+      "dopamine": 0.011,
+      "elapsed_ms": 104.1,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5,
+      "black_score": 0.5,
+      "white_mbon": 10,
+      "black_mbon": 10,
+      "total_spikes": 70254,
+      "dopamine": 0.015,
+      "elapsed_ms": 100.4,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.3333,
+      "black_score": 0.6667,
+      "white_mbon": 6,
+      "black_mbon": 12,
+      "total_spikes": 76194,
+      "dopamine": 0.018,
+      "elapsed_ms": 101.8,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.3125,
+      "black_score": 0.6875,
+      "white_mbon": 5,
+      "black_mbon": 11,
+      "total_spikes": 70734,
+      "dopamine": 0.021,
+      "elapsed_ms": 103.7,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4737,
+      "black_score": 0.5263,
+      "white_mbon": 9,
+      "black_mbon": 10,
+      "total_spikes": 71284,
+      "dopamine": 0.024,
+      "elapsed_ms": 103.9,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.3333,
+      "black_score": 0.6667,
+      "white_mbon": 5,
+      "black_mbon": 10,
+      "total_spikes": 73587,
+      "dopamine": 0.027,
+      "elapsed_ms": 104.0,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.3882,
+      "black_score": 0.6118,
+      "white_mbon": 118,
+      "black_mbon": 186,
+      "total_spikes": 169741,
+      "dopamine": 0.034,
+      "elapsed_ms": 109.7,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.3406,
+      "black_score": 0.6594,
+      "white_mbon": 94,
+      "black_mbon": 182,
+      "total_spikes": 170555,
+      "dopamine": 0.04,
+      "elapsed_ms": 110.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4074,
+      "black_score": 0.5926,
+      "white_mbon": 132,
+      "black_mbon": 192,
+      "total_spikes": 174753,
+      "dopamine": 0.046,
+      "elapsed_ms": 108.0,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.3962,
+      "black_score": 0.6038,
+      "white_mbon": 124,
+      "black_mbon": 189,
+      "total_spikes": 170366,
+      "dopamine": 0.052,
+      "elapsed_ms": 107.1,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4167,
+      "black_score": 0.5833,
+      "white_mbon": 125,
+      "black_mbon": 175,
+      "total_spikes": 173690,
+      "dopamine": 0.057,
+      "elapsed_ms": 109.0,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.3992,
+      "black_score": 0.6008,
+      "white_mbon": 711,
+      "black_mbon": 1070,
+      "total_spikes": 328521,
+      "dopamine": 0.066,
+      "elapsed_ms": 109.9,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4034,
+      "black_score": 0.5966,
+      "white_mbon": 693,
+      "black_mbon": 1025,
+      "total_spikes": 321561,
+      "dopamine": 0.075,
+      "elapsed_ms": 106.7,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.3727,
+      "black_score": 0.6273,
+      "white_mbon": 662,
+      "black_mbon": 1114,
+      "total_spikes": 325008,
+      "dopamine": 0.083,
+      "elapsed_ms": 105.6,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.3737,
+      "black_score": 0.6263,
+      "white_mbon": 630,
+      "black_mbon": 1056,
+      "total_spikes": 318827,
+      "dopamine": 0.091,
+      "elapsed_ms": 110.7,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4692,
+      "black_score": 0.5308,
+      "white_mbon": 2211,
+      "black_mbon": 2501,
+      "total_spikes": 504305,
+      "dopamine": 0.086,
+      "elapsed_ms": 114.7,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4887,
+      "black_score": 0.5113,
+      "white_mbon": 2292,
+      "black_mbon": 2398,
+      "total_spikes": 502670,
+      "dopamine": 0.082,
+      "elapsed_ms": 107.6,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.494,
+      "black_score": 0.506,
+      "white_mbon": 2329,
+      "black_mbon": 2386,
+      "total_spikes": 496401,
+      "dopamine": 0.078,
+      "elapsed_ms": 109.2,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5021,
+      "black_score": 0.4979,
+      "white_mbon": 2387,
+      "black_mbon": 2367,
+      "total_spikes": 496422,
+      "dopamine": 0.074,
+      "elapsed_ms": 111.2,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5408,
+      "black_score": 0.4592,
+      "white_mbon": 4325,
+      "black_mbon": 3673,
+      "total_spikes": 668021,
+      "dopamine": 0.082,
+      "elapsed_ms": 116.6,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5479,
+      "black_score": 0.4521,
+      "white_mbon": 4310,
+      "black_mbon": 3556,
+      "total_spikes": 656270,
+      "dopamine": 0.09,
+      "elapsed_ms": 117.8,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.55,
+      "black_score": 0.45,
+      "white_mbon": 4334,
+      "black_mbon": 3546,
+      "total_spikes": 655085,
+      "dopamine": 0.098,
+      "elapsed_ms": 120.8,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5531,
+      "black_score": 0.4469,
+      "white_mbon": 4381,
+      "black_mbon": 3540,
+      "total_spikes": 663180,
+      "dopamine": 0.105,
+      "elapsed_ms": 118.4,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5458,
+      "black_score": 0.4542,
+      "white_mbon": 4344,
+      "black_mbon": 3615,
+      "total_spikes": 659205,
+      "dopamine": 0.112,
+      "elapsed_ms": 114.9,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4758,
+      "black_score": 0.5242,
+      "white_mbon": 5656,
+      "black_mbon": 6231,
+      "total_spikes": 842244,
+      "dopamine": 0.11,
+      "elapsed_ms": 120.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4912,
+      "black_score": 0.5088,
+      "white_mbon": 5860,
+      "black_mbon": 6071,
+      "total_spikes": 852034,
+      "dopamine": 0.109,
+      "elapsed_ms": 125.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4804,
+      "black_score": 0.5196,
+      "white_mbon": 5749,
+      "black_mbon": 6219,
+      "total_spikes": 841294,
+      "dopamine": 0.107,
+      "elapsed_ms": 127.0,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4816,
+      "black_score": 0.5184,
+      "white_mbon": 5662,
+      "black_mbon": 6095,
+      "total_spikes": 839618,
+      "dopamine": 0.106,
+      "elapsed_ms": 146.0,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4703,
+      "black_score": 0.5297,
+      "white_mbon": 7676,
+      "black_mbon": 8644,
+      "total_spikes": 1080569,
+      "dopamine": 0.096,
+      "elapsed_ms": 150.3,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4737,
+      "black_score": 0.5263,
+      "white_mbon": 7463,
+      "black_mbon": 8293,
+      "total_spikes": 1066415,
+      "dopamine": 0.088,
+      "elapsed_ms": 164.3,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.456,
+      "black_score": 0.544,
+      "white_mbon": 7060,
+      "black_mbon": 8424,
+      "total_spikes": 1049871,
+      "dopamine": 0.079,
+      "elapsed_ms": 205.2,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4699,
+      "black_score": 0.5301,
+      "white_mbon": 7524,
+      "black_mbon": 8488,
+      "total_spikes": 1068520,
+      "dopamine": 0.071,
+      "elapsed_ms": 217.6,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4546,
+      "black_score": 0.5454,
+      "white_mbon": 8236,
+      "black_mbon": 9880,
+      "total_spikes": 1211371,
+      "dopamine": 0.06,
+      "elapsed_ms": 253.4,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4646,
+      "black_score": 0.5354,
+      "white_mbon": 8348,
+      "black_mbon": 9620,
+      "total_spikes": 1205575,
+      "dopamine": 0.049,
+      "elapsed_ms": 213.7,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.461,
+      "black_score": 0.539,
+      "white_mbon": 8430,
+      "black_mbon": 9857,
+      "total_spikes": 1215711,
+      "dopamine": 0.038,
+      "elapsed_ms": 220.0,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4526,
+      "black_score": 0.5474,
+      "white_mbon": 8194,
+      "black_mbon": 9909,
+      "total_spikes": 1206012,
+      "dopamine": 0.028,
+      "elapsed_ms": 235.4,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4538,
+      "black_score": 0.5462,
+      "white_mbon": 8170,
+      "black_mbon": 9835,
+      "total_spikes": 1207808,
+      "dopamine": 0.019,
+      "elapsed_ms": 212.7,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4768,
+      "black_score": 0.5232,
+      "white_mbon": 10410,
+      "black_mbon": 11423,
+      "total_spikes": 1455610,
+      "dopamine": 0.002,
+      "elapsed_ms": 222.9,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4756,
+      "black_score": 0.5244,
+      "white_mbon": 10278,
+      "black_mbon": 11331,
+      "total_spikes": 1446704,
+      "dopamine": -0.014,
+      "elapsed_ms": 232.1,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4824,
+      "black_score": 0.5176,
+      "white_mbon": 10419,
+      "black_mbon": 11178,
+      "total_spikes": 1443953,
+      "dopamine": -0.029,
+      "elapsed_ms": 230.2,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4762,
+      "black_score": 0.5238,
+      "white_mbon": 10331,
+      "black_mbon": 11363,
+      "total_spikes": 1446483,
+      "dopamine": -0.044,
+      "elapsed_ms": 278.7,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4777,
+      "black_score": 0.5223,
+      "white_mbon": 11609,
+      "black_mbon": 12691,
+      "total_spikes": 1621601,
+      "dopamine": -0.062,
+      "elapsed_ms": 268.3,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.483,
+      "black_score": 0.517,
+      "white_mbon": 11596,
+      "black_mbon": 12413,
+      "total_spikes": 1608872,
+      "dopamine": -0.079,
+      "elapsed_ms": 272.6,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4846,
+      "black_score": 0.5154,
+      "white_mbon": 11594,
+      "black_mbon": 12333,
+      "total_spikes": 1607579,
+      "dopamine": -0.095,
+      "elapsed_ms": 250.4,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4786,
+      "black_score": 0.5214,
+      "white_mbon": 11560,
+      "black_mbon": 12593,
+      "total_spikes": 1613985,
+      "dopamine": -0.11,
+      "elapsed_ms": 250.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4798,
+      "black_score": 0.5202,
+      "white_mbon": 11432,
+      "black_mbon": 12397,
+      "total_spikes": 1603673,
+      "dopamine": -0.124,
+      "elapsed_ms": 231.8,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5064,
+      "black_score": 0.4936,
+      "white_mbon": 13437,
+      "black_mbon": 13097,
+      "total_spikes": 1790418,
+      "dopamine": -0.138,
+      "elapsed_ms": 252.8,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.502,
+      "black_score": 0.498,
+      "white_mbon": 13440,
+      "black_mbon": 13332,
+      "total_spikes": 1794498,
+      "dopamine": -0.151,
+      "elapsed_ms": 271.4,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.504,
+      "black_score": 0.496,
+      "white_mbon": 13404,
+      "black_mbon": 13189,
+      "total_spikes": 1796644,
+      "dopamine": -0.164,
+      "elapsed_ms": 244.3,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5085,
+      "black_score": 0.4915,
+      "white_mbon": 13445,
+      "black_mbon": 12993,
+      "total_spikes": 1777928,
+      "dopamine": -0.176,
+      "elapsed_ms": 220.7,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.4999,
+      "black_score": 0.5001,
+      "white_mbon": 14036,
+      "black_mbon": 14040,
+      "total_spikes": 1887206,
+      "dopamine": -0.187,
+      "elapsed_ms": 231.1,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5017,
+      "black_score": 0.4983,
+      "white_mbon": 13881,
+      "black_mbon": 13788,
+      "total_spikes": 1869589,
+      "dopamine": -0.197,
+      "elapsed_ms": 259.2,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5055,
+      "black_score": 0.4945,
+      "white_mbon": 14121,
+      "black_mbon": 13812,
+      "total_spikes": 1878022,
+      "dopamine": -0.208,
+      "elapsed_ms": 269.0,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5009,
+      "black_score": 0.4991,
+      "white_mbon": 13896,
+      "black_mbon": 13847,
+      "total_spikes": 1880750,
+      "dopamine": -0.217,
+      "elapsed_ms": 224.3,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5099,
+      "black_score": 0.4901,
+      "white_mbon": 15418,
+      "black_mbon": 14821,
+      "total_spikes": 2055868,
+      "dopamine": -0.214,
+      "elapsed_ms": 237.9,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5066,
+      "black_score": 0.4934,
+      "white_mbon": 15278,
+      "black_mbon": 14877,
+      "total_spikes": 2051042,
+      "dopamine": -0.212,
+      "elapsed_ms": 224.9,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5058,
+      "black_score": 0.4942,
+      "white_mbon": 15137,
+      "black_mbon": 14791,
+      "total_spikes": 2064637,
+      "dopamine": -0.209,
+      "elapsed_ms": 226.6,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5097,
+      "black_score": 0.4903,
+      "white_mbon": 15415,
+      "black_mbon": 14829,
+      "total_spikes": 2050936,
+      "dopamine": -0.207,
+      "elapsed_ms": 227.4,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5075,
+      "black_score": 0.4925,
+      "white_mbon": 15385,
+      "black_mbon": 14929,
+      "total_spikes": 2058750,
+      "dopamine": -0.204,
+      "elapsed_ms": 244.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5077,
+      "black_score": 0.4923,
+      "white_mbon": 16408,
+      "black_mbon": 15908,
+      "total_spikes": 2231130,
+      "dopamine": -0.226,
+      "elapsed_ms": 216.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5077,
+      "black_score": 0.4923,
+      "white_mbon": 16556,
+      "black_mbon": 16053,
+      "total_spikes": 2240909,
+      "dopamine": -0.247,
+      "elapsed_ms": 235.1,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5032,
+      "black_score": 0.4968,
+      "white_mbon": 16356,
+      "black_mbon": 16147,
+      "total_spikes": 2245080,
+      "dopamine": -0.266,
+      "elapsed_ms": 242.1,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5157,
+      "black_score": 0.4843,
+      "white_mbon": 16720,
+      "black_mbon": 15705,
+      "total_spikes": 2229112,
+      "dopamine": -0.285,
+      "elapsed_ms": 226.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5015,
+      "black_score": 0.4985,
+      "white_mbon": 17611,
+      "black_mbon": 17505,
+      "total_spikes": 2441669,
+      "dopamine": -0.299,
+      "elapsed_ms": 250.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5082,
+      "black_score": 0.4918,
+      "white_mbon": 17716,
+      "black_mbon": 17142,
+      "total_spikes": 2434410,
+      "dopamine": -0.312,
+      "elapsed_ms": 253.3,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5121,
+      "black_score": 0.4879,
+      "white_mbon": 18045,
+      "black_mbon": 17193,
+      "total_spikes": 2429054,
+      "dopamine": -0.324,
+      "elapsed_ms": 224.4,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5044,
+      "black_score": 0.4956,
+      "white_mbon": 17705,
+      "black_mbon": 17395,
+      "total_spikes": 2438471,
+      "dopamine": -0.336,
+      "elapsed_ms": 239.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5118,
+      "black_score": 0.4882,
+      "white_mbon": 19085,
+      "black_mbon": 18205,
+      "total_spikes": 2608183,
+      "dopamine": -0.343,
+      "elapsed_ms": 235.1,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5128,
+      "black_score": 0.4872,
+      "white_mbon": 19223,
+      "black_mbon": 18264,
+      "total_spikes": 2625997,
+      "dopamine": -0.35,
+      "elapsed_ms": 243.9,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5119,
+      "black_score": 0.4881,
+      "white_mbon": 19189,
+      "black_mbon": 18296,
+      "total_spikes": 2621264,
+      "dopamine": -0.357,
+      "elapsed_ms": 264.4,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5128,
+      "black_score": 0.4872,
+      "white_mbon": 19170,
+      "black_mbon": 18215,
+      "total_spikes": 2616328,
+      "dopamine": -0.363,
+      "elapsed_ms": 335.2,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5069,
+      "black_score": 0.4931,
+      "white_mbon": 18965,
+      "black_mbon": 18446,
+      "total_spikes": 2616160,
+      "dopamine": -0.369,
+      "elapsed_ms": 226.3,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5155,
+      "black_score": 0.4845,
+      "white_mbon": 19387,
+      "black_mbon": 18224,
+      "total_spikes": 2622616,
+      "dopamine": -0.374,
+      "elapsed_ms": 258.3,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5155,
+      "black_score": 0.4845,
+      "white_mbon": 19224,
+      "black_mbon": 18066,
+      "total_spikes": 2610707,
+      "dopamine": -0.379,
+      "elapsed_ms": 233.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5117,
+      "black_score": 0.4883,
+      "white_mbon": 19262,
+      "black_mbon": 18378,
+      "total_spikes": 2622832,
+      "dopamine": -0.385,
+      "elapsed_ms": 223.8,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5116,
+      "black_score": 0.4884,
+      "white_mbon": 18949,
+      "black_mbon": 18089,
+      "total_spikes": 2600383,
+      "dopamine": -0.389,
+      "elapsed_ms": 243.6,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5092,
+      "black_score": 0.4908,
+      "white_mbon": 18787,
+      "black_mbon": 18109,
+      "total_spikes": 2604327,
+      "dopamine": -0.394,
+      "elapsed_ms": 233.9,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5145,
+      "black_score": 0.4855,
+      "white_mbon": 19362,
+      "black_mbon": 18271,
+      "total_spikes": 2617702,
+      "dopamine": -0.398,
+      "elapsed_ms": 223.6,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5108,
+      "black_score": 0.4892,
+      "white_mbon": 19146,
+      "black_mbon": 18335,
+      "total_spikes": 2619261,
+      "dopamine": -0.402,
+      "elapsed_ms": 240.1,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5042,
+      "black_score": 0.4958,
+      "white_mbon": 18721,
+      "black_mbon": 18410,
+      "total_spikes": 2601481,
+      "dopamine": -0.406,
+      "elapsed_ms": 233.8,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5187,
+      "black_score": 0.4813,
+      "white_mbon": 19245,
+      "black_mbon": 17858,
+      "total_spikes": 2596351,
+      "dopamine": -0.41,
+      "elapsed_ms": 239.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5183,
+      "black_score": 0.4817,
+      "white_mbon": 19235,
+      "black_mbon": 17874,
+      "total_spikes": 2606815,
+      "dopamine": -0.413,
+      "elapsed_ms": 229.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5106,
+      "black_score": 0.4894,
+      "white_mbon": 18948,
+      "black_mbon": 18161,
+      "total_spikes": 2599019,
+      "dopamine": -0.417,
+      "elapsed_ms": 238.3,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5087,
+      "black_score": 0.4913,
+      "white_mbon": 18828,
+      "black_mbon": 18187,
+      "total_spikes": 2593178,
+      "dopamine": -0.42,
+      "elapsed_ms": 238.0,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5165,
+      "black_score": 0.4835,
+      "white_mbon": 19063,
+      "black_mbon": 17843,
+      "total_spikes": 2593438,
+      "dopamine": -0.423,
+      "elapsed_ms": 231.7,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5158,
+      "black_score": 0.4842,
+      "white_mbon": 19173,
+      "black_mbon": 17999,
+      "total_spikes": 2603010,
+      "dopamine": -0.426,
+      "elapsed_ms": 241.4,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5074,
+      "black_score": 0.4926,
+      "white_mbon": 18803,
+      "black_mbon": 18255,
+      "total_spikes": 2599871,
+      "dopamine": -0.428,
+      "elapsed_ms": 235.3,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5106,
+      "black_score": 0.4894,
+      "white_mbon": 18990,
+      "black_mbon": 18198,
+      "total_spikes": 2598964,
+      "dopamine": -0.431,
+      "elapsed_ms": 230.5,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5185,
+      "black_score": 0.4815,
+      "white_mbon": 19119,
+      "black_mbon": 17754,
+      "total_spikes": 2589101,
+      "dopamine": -0.433,
+      "elapsed_ms": 228.8,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5108,
+      "black_score": 0.4892,
+      "white_mbon": 18830,
+      "black_mbon": 18033,
+      "total_spikes": 2598979,
+      "dopamine": -0.436,
+      "elapsed_ms": 216.6,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5102,
+      "black_score": 0.4898,
+      "white_mbon": 19075,
+      "black_mbon": 18310,
+      "total_spikes": 2603022,
+      "dopamine": -0.438,
+      "elapsed_ms": 244.9,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5141,
+      "black_score": 0.4859,
+      "white_mbon": 18873,
+      "black_mbon": 17836,
+      "total_spikes": 2580860,
+      "dopamine": -0.44,
+      "elapsed_ms": 233.9,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5134,
+      "black_score": 0.4866,
+      "white_mbon": 18825,
+      "black_mbon": 17839,
+      "total_spikes": 2577581,
+      "dopamine": -0.442,
+      "elapsed_ms": 221.2,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5111,
+      "black_score": 0.4889,
+      "white_mbon": 18961,
+      "black_mbon": 18134,
+      "total_spikes": 2598518,
+      "dopamine": -0.444,
+      "elapsed_ms": 240.9,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5132,
+      "black_score": 0.4868,
+      "white_mbon": 19004,
+      "black_mbon": 18023,
+      "total_spikes": 2592845,
+      "dopamine": -0.446,
+      "elapsed_ms": 231.4,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5132,
+      "black_score": 0.4868,
+      "white_mbon": 18878,
+      "black_mbon": 17906,
+      "total_spikes": 2580973,
+      "dopamine": -0.447,
+      "elapsed_ms": 232.6,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5077,
+      "black_score": 0.4923,
+      "white_mbon": 18661,
+      "black_mbon": 18092,
+      "total_spikes": 2587253,
+      "dopamine": -0.449,
+      "elapsed_ms": 228.6,
+      "neurons_sim": 166700
+    },
+    {
+      "white_score": 0.5166,
+      "black_score": 0.4834,
+      "white_mbon": 19152,
+      "black_mbon": 17923,
+      "total_spikes": 2594171,
+      "dopamine": -0.451,
+      "elapsed_ms": 249.5,
+      "neurons_sim": 166700
+    }
+  ]
+}

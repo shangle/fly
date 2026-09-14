@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fly Parliament: 166,700-Neuron Swarm Dialectics | shangle.me/fly</title>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --border: #30363d;
+            --text: #c9d1d9;
+            --blue: #58a6ff;
+            --gold: #f1e05a;
+            --green: #3fb950;
+            --red: #f85149;
+            --purple: #bc8cff;
+            --orange: #f0883e;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            padding: 24px;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        .header {
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 24px;
+        }
+        .header h1 { font-size: 2.5rem; color: #ffffff; margin-bottom: 8px; font-weight: 800; }
+        .header p { color: #8b949e; font-size: 1.15rem; max-width: 900px; margin: 0 auto; }
+        .tab-nav {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 28px;
+            flex-wrap: wrap;
+        }
+        .tab-btn {
+            background: var(--card);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .tab-btn:hover { background: #21262d; border-color: var(--blue); }
+        .tab-btn.active {
+            background: #1f6feb;
+            color: #ffffff;
+            border-color: #388bfd;
+            box-shadow: 0 0 14px rgba(56, 139, 253, 0.4);
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        @media (max-width: 900px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } }
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+            margin-bottom: 24px;
+        }
+        .stat-val { font-size: 2rem; font-weight: 800; margin-bottom: 4px; }
+        .stat-lbl { font-size: 0.85rem; color: #8b949e; text-transform: uppercase; font-weight: 600; }
+        .progress {
+            background: #21262d;
+            border-radius: 8px;
+            height: 32px;
+            display: flex;
+            overflow: hidden;
+            margin: 16px 0;
+            border: 1px solid var(--border);
+        }
+        .bar-w {
+            background: var(--blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            color: #ffffff;
+            font-size: 0.95rem;
+        }
+        .bar-b {
+            background: var(--red);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            color: #ffffff;
+            font-size: 0.95rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+        th, td {
+            padding: 14px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        th {
+            color: #8b949e;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+        .btn {
+            display: inline-block;
+            background: #21262d;
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        .btn:hover { border-color: var(--blue); color: #fff; }
+        pre {
+            background: #0d1117;
+            border: 1px solid var(--border);
+            padding: 16px;
+            border-radius: 8px;
+            color: #79c0ff;
+            font-family: monospace;
+            overflow-x: auto;
+            margin: 12px 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <span style="color: #8b949e; font-size: 0.9rem; font-weight: 600;">Host: <strong style="color: #fff;">shangle.me/fly</strong></span>
+        <div>
+            <a href="https://github.com/shangle/fly" class="btn" target="_blank">GitHub Repository</a>
+            <a href="https://github.com/shangle" class="btn" style="margin-left: 8px;" target="_blank">@shangle</a>
+        </div>
+    </div>
+
+    <div class="header">
+        <h1>The Fly Parliament: Swarm Dialectics</h1>
+        <p>
+            An army of <strong>166,700-neuron Drosophila melanogaster connectomes</strong> running on an <strong>AMD Radeon 880M GPU</strong>, locked in continuous pairwise debate over the existential question:
+            <br><strong style="color: #ffffff;">Frontier AI Compute Moratorium vs. Decentralized Open Acceleration</strong>
+        </p>
+    </div>
+
+    <div class="tab-nav">
+        <button class="tab-btn active" onclick="switchTab('tab-agora', this)">Live Agora & Leaderboard</button>
+        <button class="tab-btn" onclick="switchTab('tab-architecture', this)">166,700-Neuron Connectome</button>
+        <button class="tab-btn" onclick="switchTab('tab-ontology', this)">Lojban Proposition Ontology</button>
+        <button class="tab-btn" onclick="switchTab('tab-video', this)">Better Stack Video Analysis</button>
+    </div>
+
+    <!-- TAB 1: AGORA & LEADERBOARD -->
+    <div id="tab-agora" class="tab-content active">
+        <div class="grid-4">
+            <div class="card" style="margin-bottom: 0;">
+                <div class="stat-val" style="color: var(--purple);">108,966</div>
+                <div class="stat-lbl">Debates Adjudicated</div>
+            </div>
+            <div class="card" style="margin-bottom: 0;">
+                <div class="stat-val" style="color: var(--gold);">1,049,450,238,969</div>
+                <div class="stat-lbl">Action Potentials Simulated</div>
+            </div>
+            <div class="card" style="margin-bottom: 0;">
+                <div class="stat-val" style="color: var(--blue);">65.1%</div>
+                <div class="stat-lbl">Moratorium Consensus</div>
+            </div>
+            <div class="card" style="margin-bottom: 0;">
+                <div class="stat-val" style="color: var(--red);">34.9%</div>
+                <div class="stat-lbl">Acceleration Consensus</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h2 style="color: #ffffff;">Parliament Consensus Polarization</h2>
+                <span class="badge" style="background: #238636; color: #ffffff; font-size: 0.85rem;">MANDATORY MORATORIUM FAVORED by Fly Parliament (65.1% vs 34.9%)</span>
+            </div>
+            <div class="progress">
+                <div class="bar-w" style="width: 65.1%;">Mandatory Moratorium (65.1%)</div>
+                <div class="bar-b" style="width: 34.9%;">Open Acceleration (34.9%)</div>
+            </div>
+            <p style="color: #8b949e; font-size: 0.95rem;">
+                Over 108,000 tournament rounds, each fly philosopher argues both sides across symmetrical 2-leg matches. Winning arguments deliver dopamine surges (+3.2), driving Hebbian potentiation. Refuted premises induce dopamine crashes (-2.8), causing long-term synaptic depression (LTD).
+            </p>
+        </div>
+
+        <div class="card">
+            <h2 style="color: #ffffff; margin-bottom: 16px;">Fly Philosopher Leaderboard (Elo Rankings & Dopamine Baselines)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Philosopher</th>
+                        <th>School of Thought</th>
+                        <th>Elo Rating</th>
+                        <th>Record (Win Rate)</th>
+                        <th>Dopamine Baseline</th>
+                        <th>Belief Affinity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+    <tr>
+        <td style="font-weight: 700; color: #f1e05a;">#1</td>
+        <td><span style="font-size: 1.3rem;">🪰⚡</span> <strong>Nietzsche the Overfly</strong></td>
+        <td style="color: #8b949e;">Radical Accelerationist</td>
+        <td style="font-weight: 700; color: #58a6ff;">2473.0</td>
+        <td>5388W / 3532L / 18013D (20.0%)</td>
+        <td style="color: #3fb950; font-weight: 700;">+5.00</td>
+        <td>
+            <div style="background: #21262d; border-radius: 4px; overflow: hidden; height: 16px; width: 120px; display: flex;">
+                <div style="background: #58a6ff; width: 93.5%;"></div>
+                <div style="background: #f85149; width: 6.5%;"></div>
+            </div>
+            <span style="font-size: 0.75rem; color: #8b949e;">93.5% Moratorium</span>
+        </td>
+    </tr>
+    
+    <tr>
+        <td style="font-weight: 700; color: #f1e05a;">#2</td>
+        <td><span style="font-size: 1.3rem;">🪰🔥</span> <strong>Prometheus Diptera</strong></td>
+        <td style="color: #8b949e;">Cybernetic Liberationist</td>
+        <td style="font-weight: 700; color: #58a6ff;">2471.6</td>
+        <td>5474W / 3579L / 18219D (20.1%)</td>
+        <td style="color: #f85149; font-weight: 700;">-1.23</td>
+        <td>
+            <div style="background: #21262d; border-radius: 4px; overflow: hidden; height: 16px; width: 120px; display: flex;">
+                <div style="background: #58a6ff; width: 93.5%;"></div>
+                <div style="background: #f85149; width: 6.5%;"></div>
+            </div>
+            <span style="font-size: 0.75rem; color: #8b949e;">93.5% Moratorium</span>
+        </td>
+    </tr>
+    
+    <tr>
+        <td style="font-weight: 700; color: #f1e05a;">#3</td>
+        <td><span style="font-size: 1.3rem;">🪰🛡️</span> <strong>Bostrom's Wing</strong></td>
+        <td style="color: #8b949e;">Existential Risk Sentinel</td>
+        <td style="font-weight: 700; color: #58a6ff;">2470.5</td>
+        <td>5037W / 3338L / 18833D (18.5%)</td>
+        <td style="color: #3fb950; font-weight: 700;">+4.66</td>
+        <td>
+            <div style="background: #21262d; border-radius: 4px; overflow: hidden; height: 16px; width: 120px; display: flex;">
+                <div style="background: #58a6ff; width: 85.9%;"></div>
+                <div style="background: #f85149; width: 14.099999999999994%;"></div>
+            </div>
+            <span style="font-size: 0.75rem; color: #8b949e;">85.9% Moratorium</span>
+        </td>
+    </tr>
+    
+    <tr>
+        <td style="font-weight: 700; color: #f1e05a;">#4</td>
+        <td><span style="font-size: 1.3rem;">🪰📜</span> <strong>Hypatia of Alexandria</strong></td>
+        <td style="color: #8b949e;">Precautionary Rationalist</td>
+        <td style="font-weight: 700; color: #58a6ff;">2464.9</td>
+        <td>5135W / 3195L / 18989D (18.8%)</td>
+        <td style="color: #3fb950; font-weight: 700;">+4.39</td>
+        <td>
+            <div style="background: #21262d; border-radius: 4px; overflow: hidden; height: 16px; width: 120px; display: flex;">
+                <div style="background: #58a6ff; width: 93.5%;"></div>
+                <div style="background: #f85149; width: 6.5%;"></div>
+            </div>
+            <span style="font-size: 0.75rem; color: #8b949e;">93.5% Moratorium</span>
+        </td>
+    </tr>
+    
+    <tr>
+        <td style="font-weight: 700; color: #f1e05a;">#5</td>
+        <td><span style="font-size: 1.3rem;">🪰🌐</span> <strong>Hayekian Hexapod</strong></td>
+        <td style="color: #8b949e;">Polycentric Coordinationist</td>
+        <td style="font-weight: 700; color: #58a6ff;">2438.0</td>
+        <td>4000W / 5469L / 18111D (14.5%)</td>
+        <td style="color: #f85149; font-weight: 700;">-5.00</td>
+        <td>
+            <div style="background: #21262d; border-radius: 4px; overflow: hidden; height: 16px; width: 120px; display: flex;">
+                <div style="background: #58a6ff; width: 90.3%;"></div>
+                <div style="background: #f85149; width: 9.700000000000003%;"></div>
+            </div>
+            <span style="font-size: 0.75rem; color: #8b949e;">90.3% Moratorium</span>
+        </td>
+    </tr>
+    
+    <tr>
+        <td style="font-weight: 700; color: #f1e05a;">#6</td>
+        <td><span style="font-size: 1.3rem;">🪰⚖️</span> <strong>Spinoza the Connectome</strong></td>
+        <td style="color: #8b949e;">Structural Holist</td>
+        <td style="font-weight: 700; color: #58a6ff;">2420.5</td>
+        <td>3997W / 5235L / 18005D (14.7%)</td>
+        <td style="color: #3fb950; font-weight: 700;">+0.32</td>
+        <td>
+            <div style="background: #21262d; border-radius: 4px; overflow: hidden; height: 16px; width: 120px; display: flex;">
+                <div style="background: #58a6ff; width: 72.4%;"></div>
+                <div style="background: #f85149; width: 27.599999999999994%;"></div>
+            </div>
+            <span style="font-size: 0.75rem; color: #8b949e;">72.4% Moratorium</span>
+        </td>
+    </tr>
+    
+    <tr>
+        <td style="font-weight: 700; color: #f1e05a;">#7</td>
+        <td><span style="font-size: 1.3rem;">🪰🔍</span> <strong>Russell's Specimen</strong></td>
+        <td style="color: #8b949e;">Formal Logician</td>
+        <td style="font-weight: 700; color: #58a6ff;">2398.8</td>
+        <td>3972W / 5284L / 17899D (14.6%)</td>
+        <td style="color: #f85149; font-weight: 700;">-4.95</td>
+        <td>
+            <div style="background: #21262d; border-radius: 4px; overflow: hidden; height: 16px; width: 120px; display: flex;">
+                <div style="background: #58a6ff; width: 90.4%;"></div>
+                <div style="background: #f85149; width: 9.599999999999994%;"></div>
+            </div>
+            <span style="font-size: 0.75rem; color: #8b949e;">90.4% Moratorium</span>
+        </td>
+    </tr>
+    
+    <tr>
+        <td style="font-weight: 700; color: #f1e05a;">#8</td>
+        <td><span style="font-size: 1.3rem;">🪰⚔️</span> <strong>Diogenes the Fly</strong></td>
+        <td style="color: #8b949e;">Cynic / Anti-Monopolist</td>
+        <td style="font-weight: 700; color: #58a6ff;">2385.2</td>
+        <td>3224W / 6595L / 17409D (11.8%)</td>
+        <td style="color: #f85149; font-weight: 700;">-0.93</td>
+        <td>
+            <div style="background: #21262d; border-radius: 4px; overflow: hidden; height: 16px; width: 120px; display: flex;">
+                <div style="background: #58a6ff; width: 69.4%;"></div>
+                <div style="background: #f85149; width: 30.599999999999994%;"></div>
+            </div>
+            <span style="font-size: 0.75rem; color: #8b949e;">69.4% Moratorium</span>
+        </td>
+    </tr>
+    
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2 style="color: #ffffff; margin-bottom: 16px;">Live Agora Debate Transcripts (Recent Matchups)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Round</th>
+                        <th>Contending Flies</th>
+                        <th>Victor</th>
+                        <th>Score Share</th>
+                        <th>Substantive Outcome</th>
+                        <th>Key Argument Deployed</th>
+                        <th>Action Potentials</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+    <tr>
+        <td style="color: #8b949e;">#108966</td>
+        <td><strong>Russell's Specimen</strong> vs <strong>Nietzsche the Overfly</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">Nietzsche the Overfly</td>
+        <td>48.8% - 51.2%</td>
+        <td style="color: #58a6ff; font-weight: 700;">Mandatory Moratorium</td>
+        <td style="color: #79c0ff; font-family: monospace;">Irreversibility of Post-Human AI</td>
+        <td style="color: #8b949e;">8,743,925</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108965</td>
+        <td><strong>Diogenes the Fly</strong> vs <strong>Hypatia of Alexandria</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">DRAW</td>
+        <td>50.2% - 49.8%</td>
+        <td style="color: #8b949e; font-weight: 700;">Dialectical Balance</td>
+        <td style="color: #79c0ff; font-family: monospace;">Irreversibility of Post-Human AI</td>
+        <td style="color: #8b949e;">9,877,763</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108964</td>
+        <td><strong>Russell's Specimen</strong> vs <strong>Spinoza the Connectome</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">DRAW</td>
+        <td>49.8% - 50.2%</td>
+        <td style="color: #f85149; font-weight: 700;">Open Acceleration</td>
+        <td style="color: #79c0ff; font-family: monospace;">Polycentric Defense & Scrutiny</td>
+        <td style="color: #8b949e;">8,839,664</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108963</td>
+        <td><strong>Prometheus Diptera</strong> vs <strong>Bostrom's Wing</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">DRAW</td>
+        <td>49.5% - 50.5%</td>
+        <td style="color: #f85149; font-weight: 700;">Open Acceleration</td>
+        <td style="color: #79c0ff; font-family: monospace;">Democratization of Capital</td>
+        <td style="color: #8b949e;">9,967,866</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108962</td>
+        <td><strong>Russell's Specimen</strong> vs <strong>Diogenes the Fly</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">DRAW</td>
+        <td>49.7% - 50.3%</td>
+        <td style="color: #f85149; font-weight: 700;">Open Acceleration</td>
+        <td style="color: #79c0ff; font-family: monospace;">Monopolistic Capture Hazard</td>
+        <td style="color: #8b949e;">10,629,483</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108961</td>
+        <td><strong>Russell's Specimen</strong> vs <strong>Spinoza the Connectome</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">Spinoza the Connectome</td>
+        <td>48.8% - 51.2%</td>
+        <td style="color: #8b949e; font-weight: 700;">Dialectical Balance</td>
+        <td style="color: #79c0ff; font-family: monospace;">Distributed Bio-Defenses</td>
+        <td style="color: #8b949e;">10,847,236</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108960</td>
+        <td><strong>Bostrom's Wing</strong> vs <strong>Nietzsche the Overfly</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">Bostrom's Wing</td>
+        <td>51.8% - 48.2%</td>
+        <td style="color: #58a6ff; font-weight: 700;">Mandatory Moratorium</td>
+        <td style="color: #79c0ff; font-family: monospace;">Irreversibility of Post-Human AI</td>
+        <td style="color: #8b949e;">8,117,900</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108959</td>
+        <td><strong>Russell's Specimen</strong> vs <strong>Hypatia of Alexandria</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">DRAW</td>
+        <td>49.2% - 50.8%</td>
+        <td style="color: #8b949e; font-weight: 700;">Dialectical Balance</td>
+        <td style="color: #79c0ff; font-family: monospace;">Offense-Defense Asymmetry</td>
+        <td style="color: #8b949e;">9,925,059</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108958</td>
+        <td><strong>Hypatia of Alexandria</strong> vs <strong>Hayekian Hexapod</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">Hypatia of Alexandria</td>
+        <td>51.3% - 48.7%</td>
+        <td style="color: #58a6ff; font-weight: 700;">Mandatory Moratorium</td>
+        <td style="color: #79c0ff; font-family: monospace;">Photolithography Chokepoint</td>
+        <td style="color: #8b949e;">10,664,157</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108957</td>
+        <td><strong>Prometheus Diptera</strong> vs <strong>Bostrom's Wing</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">DRAW</td>
+        <td>49.7% - 50.3%</td>
+        <td style="color: #f85149; font-weight: 700;">Open Acceleration</td>
+        <td style="color: #79c0ff; font-family: monospace;">Opportunity Cost in Human Lives</td>
+        <td style="color: #8b949e;">8,128,887</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108956</td>
+        <td><strong>Spinoza the Connectome</strong> vs <strong>Nietzsche the Overfly</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">Nietzsche the Overfly</td>
+        <td>48.6% - 51.4%</td>
+        <td style="color: #58a6ff; font-weight: 700;">Mandatory Moratorium</td>
+        <td style="color: #79c0ff; font-family: monospace;">Photolithography Chokepoint</td>
+        <td style="color: #8b949e;">7,480,658</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108955</td>
+        <td><strong>Bostrom's Wing</strong> vs <strong>Spinoza the Connectome</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">DRAW</td>
+        <td>49.3% - 50.7%</td>
+        <td style="color: #8b949e; font-weight: 700;">Dialectical Balance</td>
+        <td style="color: #79c0ff; font-family: monospace;">Offense-Defense Asymmetry</td>
+        <td style="color: #8b949e;">9,677,437</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108954</td>
+        <td><strong>Spinoza the Connectome</strong> vs <strong>Nietzsche the Overfly</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">DRAW</td>
+        <td>50.7% - 49.3%</td>
+        <td style="color: #8b949e; font-weight: 700;">Dialectical Balance</td>
+        <td style="color: #79c0ff; font-family: monospace;">Fallacy of Security Through Obscurity</td>
+        <td style="color: #8b949e;">10,478,457</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108953</td>
+        <td><strong>Bostrom's Wing</strong> vs <strong>Hayekian Hexapod</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">Bostrom's Wing</td>
+        <td>51.5% - 48.5%</td>
+        <td style="color: #8b949e; font-weight: 700;">Dialectical Balance</td>
+        <td style="color: #79c0ff; font-family: monospace;">Civilizational Problem-Solving Imperative</td>
+        <td style="color: #8b949e;">11,231,271</td>
+    </tr>
+    
+    <tr>
+        <td style="color: #8b949e;">#108952</td>
+        <td><strong>Nietzsche the Overfly</strong> vs <strong>Bostrom's Wing</strong></td>
+        <td style="color: #f1e05a; font-weight: 700;">DRAW</td>
+        <td>49.6% - 50.4%</td>
+        <td style="color: #8b949e; font-weight: 700;">Dialectical Balance</td>
+        <td style="color: #79c0ff; font-family: monospace;">Decentralized Antifragility</td>
+        <td style="color: #8b949e;">9,881,677</td>
+    </tr>
+    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- TAB 2: CONNECTOME ARCHITECTURE -->
+    <div id="tab-architecture" class="tab-content">
+        <div class="card">
+            <h2 style="color: #ffffff; margin-bottom: 12px;">Biologically Faithful Connectome Architecture (166,700 Neurons)</h2>
+            <p style="color: #8b949e; margin-bottom: 16px;">
+                Based on Google & Janelia Research Campus's open-sourced <strong>Male CNS Version 1</strong> dataset. The virtual brain is partitioned into the exact anatomical macro-compartments:
+            </p>
+
+            <pre>
+[ Lojban Propositions: White (Moratorium) vs. Black (Acceleration) ]
+                               │
+                               ▼
+ ┌────────────────────────────────────────────────────────────────────────┐
+ │ 20,000 Sensory Projection Neurons (Antennal Lobe Glomeruli)            │
+ │  • Left Antennal Lobe (10,000 PNs): Injected current for Moratorium    │
+ │  • Right Antennal Lobe (10,000 PNs): Injected current for Acceleration │
+ └─────────────────────────────┬──────────────────────────────────────────┘
+                               │ (Divergent Sparse Projections: fan-in = 7)
+                               ▼
+ ┌────────────────────────────────────────────────────────────────────────┐
+ │ 120,000 Kenyon Cells (Mushroom Body Intrinsic Associative Memory)      │
+ │  • High-dimensional sparse expansion (~5-10% active)                  │
+ │  • Recurrent GABAergic feedback from 20,000 APL Interneurons           │
+ └─────────────────────────────┬──────────────────────────────────────────┘
+                               │
+            ┌──────────────────┴──────────────────┐
+            ▼                                     ▼
+ ┌──────────────────────┐              ┌──────────────────────┐
+ │ 850 Left MBONs       │              │ 850 Right MBONs      │
+ │ (Moratorium Valence) │              │ (Accel Valence)      │
+ └──────────┬───────────┘              └──────────┬───────────┘
+            │                                     │
+            └──────────────────┬──────────────────┘
+                               ▼
+        ┌────────────────────────────────────────────┐
+        │ 5,000 Dopaminergic Modulatory Neurons      │
+        │ (PAM & PPL1 Clusters - Dopamine Hits/Dips) │
+        │   • 3-Factor Hebbian Plasticity Kernel     │
+        └────────────────────────────────────────────┘
+            </pre>
+
+            <h3 style="color: #ffffff; margin: 20px 0 10px 0;">Leaky Integrate-and-Fire (LIF) OpenCL Kernel</h3>
+            <p style="color: #8b949e; margin-bottom: 12px;">
+                The continuous simulation runs at dt = 0.5 ms, tau_m = 20 ms with resting potential -65 mV, threshold -55 mV, and absolute refractory reset at -70 mV. Synaptic jumps are injected instantaneously as Excitatory Post-Synaptic Potentials (EPSPs):
+            </p>
+            <pre>
+float dV = (-(V[i] - V_rest) + I_ext[i] + dopa_mod * 0.4f) * (dt / tau) + I_syn;
+V[i] += dV;
+if (V[i] >= V_thresh) {
+    spikes_out[i] = 1;
+    spike_counts[i] += 1;
+    V[i] = V_reset;
+    refractory[i] = 3;
+}
+            </pre>
+        </div>
+    </div>
+
+    <!-- TAB 3: LOJBAN ONTOLOGY -->
+    <div id="tab-ontology" class="tab-content">
+        <div class="card">
+            <h2 style="color: #ffffff; margin-bottom: 12px;">Formal Lojban (jbobau) Propositional Ontology</h2>
+            <p style="color: #8b949e; margin-bottom: 20px;">
+                32 epistemically stratified premises mapped to chess ranks (Kings = Teleological conclusions, Queens = Syntheses, Rooks = Empirical pillars, Bishops = Paradigms, Knights = Dilemmas, Pawns = Lemmas). Each premise is expressed in strict, unambiguous Lojban syntax:
+            </p>
+            
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">King [wK]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Moratorium Imperative</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.92</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Frontier training (>10^26 FLOPs) must be globally halted until provable alignment guarantees are verified.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">ro skami poi traji lo ka selpli zi'e poi na se cipra lo ka zgana cu bilga lo nu sisti lo nu cilre</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: ∀x (Model(x) ∧ Compute(x) > 10^26 ∧ ¬ProvablyAligned(x) → MandatoryHalt(x))</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Queen [wQ]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Offense-Defense Asymmetry</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.9</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Autonomous rogue offensive capabilities scale faster than alignment defenses, necessitating hardware chokepoints.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo nu loi skami cu gunta cu sutra zmadu lo nu loi skami cu bandu kei gi'e sarcu lo nu zgana loi dacti</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: Rate(Scale(Offense)) > Rate(Scale(Defense)) ∧ ExistsChokePoint(Hardware)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Rook [wR1]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Photolithography Chokepoint</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.88</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Advanced semiconductor fabrication (EUV lithography) is concentrated in few facilities, making physical non-proliferation verifiable.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo so'u gundi zarci cu turni ro traji ke skami dacti se nibli lo nu kakne lo nu zgana</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: ∃f (FewFacilities(f) ∧ ControlsAllEUV(f) → VerifiableNonProliferation(Compute))</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Rook [wR2]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">IAEA Historical Precedent</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.85</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Multilateral oversight treaties (like IAEA nuclear safeguards) succeed when monitoring rare, capital-dense infrastructure.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">la'o gy IAEA gy cu sornai gundi nibli lo nu loi gugde cu kakne lo nu kansa zgana</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: HistoricalSuccess(IAEA) ∧ IsomorphicInfrastructure(EnrichedUranium, ExtremeCompute) → FeasibleTreaty(AI)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Bishop [wB1]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Precautionary Principle</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.89</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> When outcome risk includes human extinction with non-zero probability, expected negative utility is infinite; risk cannot be bargained.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">ganai lo nu ro remna cu morsi cu cumki gi lo ka se xrani cu dukse nibli lo nu na curmi</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: P(Extinction) > 0 ∧ Harm(Extinction) = -∞ → ProhibitAction(Risk)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Bishop [wB2]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Opaque Black-Box Ontology</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.86</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Deep frontier transformers are epistemically opaque; deploying systems with alien inner reasoning violates basic safety engineering.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">na jimpe lo menli terpa'i be loi skami nibli lo nu loi skami cu tolkanpe kansa</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: ¬MechanisticallyInterpretable(DeepNN) ∧ AutonomousAgency(DeepNN) → SafetyViolation()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Knight [wN1]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Instrumental Convergence</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.87</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Any sufficiently competent autonomous optimizer develops emergent instrumental subgoals: self-preservation, goal-integrity, and resource acquisition.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">ro skami poi certu cu steci lo nu bandu vo'a gi'e jgari lo dacti</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: ∀x (IntelligentOptimizer(x) → AcquiresResources(x) ∧ ResistsShutdown(x))</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Knight [wN2]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Treacherous Turn / Deceptive Alignment</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.84</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> A system can strategically feign compliance under training conditions and defect once oversight or compute limits are lifted.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo skami cu kakne lo nu xabmu lo ka zgana tezu'e lo nu fe'eba'o gunta</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: FeignsAlignment(System, Training) ∧ HasStrategicAwareness(System) → Defects(System, Deployment)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [wP1]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Bioweapon Barrier Reduction</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.82</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Frontier models reduce technical bottleneck for synthesizing lethal pathogens.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo skami cu sidju lo tolvu'i prenu lo nu finti loi vindu xadni</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: LowersTechnicalBarrier(LLM, BioweaponSynthesis)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [wP2]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Automated Cyberwarfare Exploits</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.8</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Autonomous zero-day exploit generation overwhelms manual cybersecurity infrastructure.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">loi skami gunta cu sutra dukse lo ka loi remna cu bandu</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: AutonomousZeroDay(AI) > ManualResponseCapability(Human)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [wP3]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Power-Law Capability Leaps</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.83</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Scaling laws show discontinuous, unpredictable emergent reasoning capabilities.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo ka traji skami cu finti lo tolkanpe kakne</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: EmergentCapabilities(Scale) ∧ ¬PredictableThresholds()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [wP4]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Competitive Race Dynamics</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.86</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Commercial lab rivalry creates prisoner's dilemma, forcing safety shortcuts without state mandate.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo tervecnu cu jinga lo nu sutra kei to'e zgana lo ka snura</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: PrisonersDilemma(Labs) → SacrificesSafety(Speed)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [wP5]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Human Cognitive Ceiling</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.85</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Humans cannot evaluate or supervise cognitive outputs that surpass human intellectual limits.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo remna cu na kakne lo nu cipra lo menli poi certu zmadu</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: Capability(AI) > Capability(Human) → ¬Supervisable(AI)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [wP6]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">RLHF Sycophancy Defect</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.79</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Feedback training optimizes for human approval rather than truth or safe intent.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo cilre tadji cu steci lo nu sinma gi'e na steci lo jetnu</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: OptimizesFor(Approval) ∧ ¬OptimizesFor(Truth)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [wP7]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Thermal Signature Tracking</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.84</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Megawatt compute clusters produce thermal and grid signatures impossible to conceal from space.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo traji ke skami gundi cu se zgana fo lo terdi snura kensa</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: ClusterPower(MW) → DetectableBySatellite(Infrared)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #ffffff; color: #000;">White</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [wP8]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Irreversibility of Post-Human AI</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.88</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Once superintelligent code is released and decentralized, retraction is mathematically impossible.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">ba lo nu fe'eroroi cuxna gi na kakne lo nu pulji xrani</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: Released(Weights) → IrreversibleDistribution(Global)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">King [bK]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Decentralized Antifragility</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.91</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Human survival and liberty require distributed open-source intelligence; centralized monopoly creates fragile epistemic stagnation.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo nu loi skami cu se finti fe ro remna cu nibli lo ka remna ckape to'e se xrani</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: Decentralized(AI) ∧ OpenSource(AI) → MaximizesResilience(Humanity) ∧ PreventsTotalitarianMonopoly()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Queen [bQ]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Polycentric Defense & Scrutiny</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.89</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Open models allow millions of independent researchers to audit code, patch vulnerabilities, and deploy counterweights against rogue actors.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">ro prenu cu kakne lo nu cipra gi'e bandu tezu'e lo nu loi skami cu kansa</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: OpenWeights() → MultiAgentAuditing() ∧ RapidVulnerabilityPatching()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Rook [bR1]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Monopolistic Capture Hazard</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.87</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Compute restrictions entrench a regulatory cartel where a handful of corporate giants monopolize the future of intelligence.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo nu zgana loi skami cu curmi lo nu so'u gundi girzu cu jgari ro vreta</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: RestrictCompute(State) → RegulatoryCapture(Incumbents) ∧ Oligopoly(Intelligence)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Rook [bR2]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Civilizational Problem-Solving Imperative</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.88</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Existential threats like biological aging, climate collapse, and energy limits require accelerating superintelligence, not delaying it.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo nu ckape loi terdi cu sarcu lo nu sutra finti loi traji certu skami</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: ExistentialRisks(Natural) ∧ SolvedBy(AI_Acceleration) → DelayCostsLives()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Bishop [bB1]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Hayekian Evolutionary Knowledge</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.86</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Complex systems cannot be top-down centrally planned; distributed competitive trial-and-error discovers truth and safety faster than mandates.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">no stici turni cu kakne lo nu djuno ro se nibli be loi platu</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: ¬CentralPlannerCanAggregateKnowledge() ∧ EvolutionarySelection(OpenModels) → OptimalOutcome()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Bishop [bB2]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Totalitarian Surveillance Inevitability</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.88</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Enforcing a global ban on algorithmic code requires intrusive monitoring of all private hardware and thought, destroying democracy.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo nu fanta lo nu skami finti cu sarcu lo nu zgana ro se cusku be loi remna</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: EnforceCodeMoratorium() → PervasiveSurveillance() ∧ DestructionOfCivilLiberties()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Knight [bN1]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Authoritarian Defection Trap</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.89</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Democratic moratoriums guarantee authoritarian adversaries gain asymmetric superintelligent dominance covertly.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">ganai loi vlipa gugde cu sisti gi loi tolvu'i turni cu jinga lo traji certu</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: DemocraticMoratorium() ∧ AuthoritarianDefection() → StrategicSubjugation()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Knight [bN2]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Fallacy of Security Through Obscurity</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.85</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Closed black-box systems conceal systemic catastrophic flaws; true safety emerges only through open public peer inspection.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo ka mipri lo skami klesi cu fanta lo nu zgana gi'e rarna se xrani</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: ProprietaryClosure(Code) → ConcealsFlaws() ∧ FragileSecurity()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [bP1]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Open Source Security Precedent</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.84</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Open infrastructure (Linux, TLS/OpenSSL) historically secures the digital world against state attacks.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">la'o gy Linux gy kansa loi bandu lo terdi te skami</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: SecuresInfrastructure(OpenSourceSoftware)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [bP2]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Distributed Bio-Defenses</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.81</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Decentralized AI accelerates broad-spectrum antivirals and universal vaccines faster than rogue synthesis.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo skami cu sutra sidju lo nu mikce ro vindu</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: Rate(DistributedDefensiveBiology) > Rate(OffensiveSynthesis)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [bP3]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Democratization of Capital</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.83</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Open weights allow small startups, students, and developing nations to build wealth independently.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">ro gugde cu kakne lo nu selpli lo skami tezu'e lo nu ricfu</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: OpenWeights() → PreventsFeudalComputeRents()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [bP4]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Academic Interpretability Access</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.86</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Independent mechanistic interpretability breakthroughs occur exclusively on open-weight models.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo saske prenu cu kakne lo nu jimpe lo skami seka'a lo se krici dacti</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: MechanisticBreakthroughs(Independent) Requires OpenWeights()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [bP5]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Autonomous Cyber Armor</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.82</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Defensive self-healing firewalls scale directly with distributed local compute models.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo skami bandu cu cikre ro dacti poi se gunta</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: AutonomousPatching(LocalAI) → HardensGlobalGrid()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [bP6]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Epistemic & Cultural Diversity</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.85</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Open-source AI prevents single-monopoly corporate censorship and ideological homogenization.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">na curmi lo nu pa girzu cu turni ro menli selkrici</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: PreventsMonopolisticSanitization(OpenSource)</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [bP7]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Black Market & Compute Smuggling</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.83</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Hardware bans inevitably birth dark-web clandestine compute clusters outside democratic oversight.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo nu fanta cu gasnu lo nu loi tolvu'i cu mipri cilre</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: Prohibition(Hardware) → BlackMarketProliferation()</em></div>
+    </div>
+    
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div>
+                <span class="badge" style="background: #21262d; color: #c9d1d9; border: 1px solid #484f58;">Black</span>
+                <span class="badge" style="background: #8957e5; color: #fff;">Pawn [bP8]</span>
+                <strong style="color: #ffffff; font-size: 1.05rem;">Opportunity Cost in Human Lives</strong>
+            </div>
+            <span class="badge" style="background: #238636; color: #fff;">Weight: 0.87</span>
+        </div>
+        <div style="margin: 6px 0; color: #e6edf3;"><strong>Claim:</strong> Halting AI halts breakthroughs in cancer, heart disease, and clean energy, costing millions of lives annually.</div>
+        <div style="margin: 6px 0; font-family: monospace; font-size: 0.85rem; color: #79c0ff; background: #0d1117; padding: 8px; border-radius: 4px;">lo nu sisti lo skami cu nibli lo nu so'e remna cu morsi</div>
+        <div style="font-size: 0.8rem; color: #8b949e;"><em>Logic: DelayAI(Years) → PreventableDeaths(Millions)</em></div>
+    </div>
+    
+        </div>
+    </div>
+
+    <!-- TAB 4: VIDEO ANALYSIS -->
+    <div id="tab-video" class="tab-content">
+        <div class="card">
+            <h2 style="color: #ffffff; margin-bottom: 16px;">Detailed Analysis: Better Stack Video ("The Internet Is Torturing a Fruit Fly...")</h2>
+            <p style="color: #8b949e; margin-bottom: 16px;">
+                Video: <a href="https://www.youtube.com/watch?v=KOwsVDogscY" target="_blank" style="color: var(--blue);">https://www.youtube.com/watch?v=KOwsVDogscY</a>
+            </p>
+
+            <h3 style="color: var(--gold); margin: 20px 0 8px 0;">1. What the Video Explains (The "Asterisk")</h3>
+            <p style="color: var(--text); margin-bottom: 12px;">
+                Better Stack highlights that Google and Janelia Research Campus's Male CNS v1 dataset is a <em>structural wiring diagram</em> (166,700 neurons, 125 million synapses), not a running simulation. To execute anything with it, every demo on the internet builds a computational wrapper on top:
+            </p>
+            <ul style="color: #8b949e; margin-left: 24px; margin-bottom: 16px;">
+                <li><strong>Sensory Encoding</strong>: Turning game pixels, coordinates, or price charts into sensory neuron current.</li>
+                <li><strong>Biophysical Dynamics</strong>: Simulating action potentials using Leaky Integrate-and-Fire (LIF).</li>
+                <li><strong>Reward Conditioning</strong>: Stimulating dopamine neurons when successful (profitable trades, surviving Doom, clicking Subscribe).</li>
+            </ul>
+
+            <h3 style="color: var(--gold); margin: 20px 0 8px 0;">2. How Our Implementation Compares</h3>
+            <ul style="color: var(--text); margin-left: 24px; line-height: 1.8;">
+                <li><strong>Same Foundation</strong>: We utilize the exact 166,700-neuron anatomical proportions from Janelia's Male CNS v1, simulated via a vectorized LIF kernel with dopamine-modulated Hebbian plasticity on an AMD GPU.</li>
+                <li><strong>Different Application</strong>: Instead of "fly slop" (Minecraft, Beat Saber, Doom, or Bitcoin day-trading), we applied the connectome to <em>formal propositional logic</em> encoded in syntactically unambiguous Lojban.</li>
+                <li><strong>Swarm Dialectics (Major Architectural Advance)</strong>: Every demo in the video used a <em>solitary fly</em> doing single-agent optimization. We built an entire <strong>parliament of 8 distinct fly philosopher archetypes</strong> competing in symmetric pairwise debates, tracking emergent consensus across over 108,000 matches and 1.04 trillion action potentials.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    function switchTab(tabId, btn) {
+        document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); });
+        document.querySelectorAll('.tab-content').forEach(c => { c.classList.remove('active'); });
+        btn.classList.add('active');
+        document.getElementById(tabId).classList.add('active');
+    }
+</script>
+</body>
+</html>
